@@ -27,7 +27,7 @@ function HomePage() {
             {/* Right section */}
             <div className="flex  items-center justify-center h-55 md:h-65 lg:h-100 rounded-full aspect-square border my-8 md:my-0 ">
                 <img
-                    src="/logo.png" className='w-full h-full aspect-square rounded-full object-cover  object-[50%_30%]' />
+                    src={`${import.meta.env.BASE_URL}logo.png`} className='w-full h-full aspect-square rounded-full object-cover  object-[50%_30%]' />
             </div>
         </section>
     )
