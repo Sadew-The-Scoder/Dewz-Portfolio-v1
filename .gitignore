@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+
+# Local environment files & logs
+.env
+.env.local
+*.log
+.eslintcache
+
+# Editor configurations
+.vscode/
+.idea/
