@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --font-mono: "JetBrains Mono", monospace, ui-monospace, SFMono-Regular;
+}
+
+@layer base {
+  body {
+    @apply font-mono;
+  }
+}
