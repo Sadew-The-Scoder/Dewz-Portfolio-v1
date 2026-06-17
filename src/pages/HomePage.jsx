@@ -12,7 +12,7 @@ function HomePage() {
                 <div
                     className="flex flex-col items-center justify-center lg:justify-start lg:items-start">
                     <h1 className="text-3xl lg:text-4xl font-bold mb-3">HI, I'm Sadew</h1> <br />
-                    <h2 className="text-2xl lg:text-3xl font-semibold opacity-80 mb-3">Web Developer & DevOps Enthusiast.</h2> <br />
+                    <h2 className="text-2xl lg:text-3xl font-semibold opacity-80 mb-3 text-center">Web Developer, <br /> DevOps Enthusiast.</h2> <br />
                     <p className="text-base opacity-70 text-center lg:text-left w-auto mb-4">I build scalable full-stack web applications and love optimizing development work flows. Passionate about clean code, lightweight environments, and modern web technologies.</p>
                     <Link
                         to="/console">
